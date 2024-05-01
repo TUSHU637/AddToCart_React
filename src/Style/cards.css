@@ -1,0 +1,55 @@
+.cont{
+    height:76vh;
+
+}
+.cards{
+    padding:2rem;
+    border-radius: 10px;
+    height:33rem;
+    width:18rem;
+    background-color: aliceblue;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+.cards:hover{
+    transform: scale(1.2);
+}
+.cards .img{
+    width:auto;
+    height:70%;
+}
+.img img{
+    height:300px;
+    width:200px;
+}
+.cards .details{
+    width:100%;
+    height:30%;
+}
+.details p:nth-child(1){
+    font-size: 1rem;
+    font-weight: bold;
+}
+.details p:nth-child(2){
+    color:grey
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color:grey
+}
+.btn{
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn button:hover{
+background-color: rgb(223, 136, 22);
+}
+.btn button{
+     cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: rgb(223, 190, 71);
+    border-radius: 10px;
+}
